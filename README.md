@@ -1,8 +1,42 @@
-# React + Vite
+# TravelTrucks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Короткий опис
 
-Currently, two official plugins are available:
+**TravelTrucks** – це веб-додаток для компанії, що займається орендою кемперів. Додаток дозволяє користувачам переглядати доступні кемпери, фільтрувати їх за різними критеріями, переглядати деталі кожного кемпера, залишати відгуки та здійснювати бронювання.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Основні функції
+
+- **Домашня сторінка**: Вітальна сторінка з банером та закликом до дії.
+- **Каталог**: Перегляд усіх доступних кемперів з можливістю фільтрації за локацією, типом кузова та іншими критеріями.
+- **Сторінка окремого кемпера**: Детальна інформація про обраний кемпер, відгуки користувачів та форма для бронювання.
+- **Фільтрація**: Фільтрація транспортних засобів на бекенді для точних результатів.
+- **Обране**: Додавання кемперів до списку обраних.
+- **Бронювання**: Форма для бронювання кемперів.
+
+### Установка
+
+1. **Клонування репозиторію**
+
+   git clone https://github.com/RodikaChorba/TravelTrucks.git
+
+2. **Встановлення залежностей**
+   npm install
+
+3. **Запуск локального сервера**
+
+   npm run dev
+
+4. **Відкриття браузера за посиланням**
+
+   http://localhost:5173/
+
+## Проект успішно деплоєний на Vercel
+
+    https://travel-trucks-virid-six.vercel.app/
+
+## Інформація про автора
+
+**Автор**: Chorba Rodika
+
+- **Email**: np_rada@ukr.net
+- **GitHub**: https://github.com/RodikaChorba
