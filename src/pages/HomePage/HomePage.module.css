@@ -1,0 +1,36 @@
+.box {
+  width: 1440px;
+  height: 696px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url("/src/assets/img/picture@2x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-resolution: 192dpi) {
+  .box {
+    background-image: url("/src/assets/img/picture@2x.png");
+  }
+}
+
+.boxTitle {
+  padding-top: 260px;
+  padding-bottom: 260px;
+}
+
+.title {
+  margin-bottom: 16px;
+  color: #f7f7f7;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.66667;
+}
+
+.text {
+  margin-bottom: 40px;
+  color: #f7f7f7;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+}

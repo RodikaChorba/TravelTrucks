@@ -1,0 +1,29 @@
+.header {
+  border-bottom: 1px solid #f2f4f7;
+  background: #f7f7f7;
+}
+
+.box {
+  display: flex;
+  gap: 450px;
+  align-items: center;
+  height: 72px;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.link {
+  padding: 24px 0;
+  color: #101828;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.active {
+  color: #d84343;
+}
